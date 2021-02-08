@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Vladislav Bulgakov",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/stickpro/nuxt-tiktok-analytics"
 }

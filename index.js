@@ -3,9 +3,9 @@ const path = require('path')
 
 module.exports = function tiktokAnalitics (moduleOptions) {
   // Don't include on dev mode
-  // if (this.options.dev && process.env.NODE_ENV !== 'production') {
-  //   return
-  // }
+  if (this.options.dev && process.env.NODE_ENV !== 'production') {
+    return
+  }
 
   const options = {
     useRuntimeConfig: this.options.publicRuntimeConfig ? 'tiktokAnalitics' : undefined,
